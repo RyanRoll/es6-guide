@@ -21,5 +21,8 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "all"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
   }
 }

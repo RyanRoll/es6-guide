@@ -22,6 +22,9 @@ const obj = {
     }
   }
 }
+const { foo: { bar: { abc, def = 'def', abc: myABC } } } = obj
+console.log('abc', abc, def, myABC)
+
 
 const data2 = obj.data
 
@@ -31,9 +34,7 @@ console.log('data', data)
 
 const abc2 = obj.foo.bar['abc']
 
-const { foo: { bar: { abc, def = 'def' } } } = obj
 
-console.log('abc', abc, def)
 
 
 
