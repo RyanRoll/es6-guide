@@ -183,9 +183,13 @@ function myClass(name) {
 myClass.prototype = proto
 
 const myObj1 = new myClass('dog')
+myObj1.foo // 
 myObj1.age === 18
 myObj1.color = 'red'
 myObj1.data.name === 'dog'
+myObj1.__proto__
+
+myClass.prototype // to get the prototype
 
 // JSON.stringify only transforms its own properties
 console.log('myObj1', myObj1, JSON.stringify(myObj1), myObj1.toString())

@@ -9,8 +9,9 @@
 // console.log('GiGi', GiGiMan)
 // console.log('myFunction', myFunction)
 
-import * as all from './object'
-import './condition'
+// import * as all from './object'
+// import './condition'
 
-console.log(all.GiGi, all.myFunction)
+// console.log(all.GiGi, all.myFunction)
 
+import './array'
